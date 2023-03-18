@@ -1,0 +1,23 @@
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+#container {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#container>div{
+  display: grid;
+  height: 100vh;
+  display:flex;
+}
+
+html, body, #container {
+  height:100vh;
+  width: 100wh;
+  margin: 0px;
+}
