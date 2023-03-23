@@ -339,11 +339,11 @@ function GetWorldConfig(approxCellSize) {
     	cellSize: cellSize,
 		generations: -1,
 		generationDelay: 100,
-		spawnPercent: 11.5,
+		spawnPercent: 5,
 		spawnClusterChance:25,
 		spawnClusterDensity: 70,
 		clusterSize:50,
-		spawnChance: 0.5,
+		spawnChance: 5,
 		patterns : [beehive, blinker, gliderGun, liveCell],
 	}
 }
